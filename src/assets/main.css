@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Darkline;
+  src: url("/fonts/Darkline.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url("/fonts/DMSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DMSans-Bold;
+  src: url("/fonts/DMSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DMSans-Medium;
+  src: url("/fonts/DMSans-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: SequelSans-BlackDisp;
+  src: url("/fonts/Sequel\ Sans\ Black\ Disp.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: SequelSans-RomanDisp;
+  src: url("/fonts/Sequel\ Sans\ Roman\ Disp.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Kanit-Bold;
+  src: url("/fonts/Kanit-Bold.ttf") format('truetype');
+}
