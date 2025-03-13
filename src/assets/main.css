@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 1440px;
+  --breakpoint-3xl: 1920px;
+}
+
+
+*{
+  scroll-behavior: smooth;
+}
+
+
+
 @font-face {
   font-family: Darkline;
   src: url("/fonts/Darkline.ttf") format('truetype');
@@ -21,16 +34,26 @@
 }
 
 @font-face {
-  font-family: SequelSans-BlackDisp;
-  src: url("/fonts/Sequel\ Sans\ Black\ Disp.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: SequelSans-RomanDisp;
-  src: url("/fonts/Sequel\ Sans\ Roman\ Disp.ttf") format('truetype');
-}
-
-@font-face {
   font-family: Kanit-Bold;
   src: url("/fonts/Kanit-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Kanit-Regular;
+  src: url("/fonts/Kanit-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Kanit-Medium;
+  src: url("/fonts/Kanit-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Kanit-Light;
+  src: url("/fonts/Kanit-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("/fonts/Roboto-Medium.ttf") format('truetype');
 }
