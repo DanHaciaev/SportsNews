@@ -287,26 +287,26 @@
     }
 
     .ball {
-        width: 230px;
+        width: 250px;
     }
 
     .top_text {
-        width: 140px;
-        font-size: 25px;
+        width: 160px;
+        font-size: 28px;
         left: 40px;
         top: 70px;
     }
 
     .top_player {
-        width: 230px;
+        width: 250px;
         top: 30px;
-        left: 80px;
+        left: 90px;
     }
 
     .top_button {
         width: 210px;
         top: 200px;
-        left: 110px;
+        left: 130px;
     }
 
     .top__text {
