@@ -1,14 +1,16 @@
 <template>
-    <div class="flex flex-col gap-[24px] article">
+    <div class="flex flex-col article">
         <p class="font-[Kanit-Medium] text-[28px]">Sports Article</p>
 
         <div class="flex w-full justify-between articles">
-            <div class="w-[370px] h-[500px] flex flex-col gap-[24px]" v-for="(article, index) in articles" :key="index">
-                <div class="bg-cover relative w-full h-[280px] p-[16px] rounded-[6px]"
-                    :style="`background-image: url(${article.photo})`">
+            <div class="max-w-[370px] h-fit mt-[24px] flex flex-col gap-[24px]" v-for="(article, index) in articles"
+                :key="index">
+                <div class="relative">
+                    <img :src="article.photo" alt="" class="w-full h-[250px] object-cover rounded-[6px]">
                     <p
-                        class="text-white font-[DMSans] text-[12px] absolute right-[16px] rounded-[4px] border-[1px] px-[10px] py-[6px]">
-                        {{ article.sport }}</p>
+                        class="text-white font-[DMSans] text-[12px] absolute top-[16px] right-[16px] rounded-[4px] border-[1px] px-[10px] py-[6px] z-[10]">
+                        {{ article.sport }}
+                    </p>
                 </div>
                 <div class="flex flex-col gap-[16px]">
                     <div class="flex items-center gap-[8px]">
@@ -48,7 +50,7 @@
         margin: 80px auto;
     }
 
-    .articles{
+    .articles {
         flex-wrap: wrap;
         gap: 30px;
     }
@@ -57,21 +59,22 @@
 @media screen and (max-width: 1050px) {
     .article {
         width: 880px;
+        margin: 80px auto;
     }
 }
 
 @media screen and (max-width: 920px) {
     .article {
         width: 768px;
+        margin: 80px auto;
     }
 
-    .articles{
+    .articles {
         justify-content: center;
-        margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 800px) {
     .article {
         width: auto;
         margin: 80px 20px;
