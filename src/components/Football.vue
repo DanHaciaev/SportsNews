@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#EBEEF3] mx-[135px] my-[80px] rounded-[6px] flex flex-col football">
+    <section class="bg-[#EBEEF3] mx-[135px] my-[80px] rounded-[6px] flex flex-col football">
         <div class="relative bg-[url(/img/lionel-messi.png)] rounded-t-[6px] w-full h-[503px] bg-cover bg-no-repeat">
             <div class="absolute inset-0 bg-black/60 h-[503px] rounded-t-[6px]"></div>
 
@@ -36,7 +36,7 @@
                 <img src="/ui/arrow_right.png" alt="" class="w-[24px]">
             </button>
         </div>
-    </div>
+    </section>
 </template>
 
 

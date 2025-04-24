@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#EBEEF3] rounded-[6px] h-[609px] mx-[135px] my-[30px] flex justify-between trending">
+    <section id="trending" class="bg-[#EBEEF3] rounded-[6px] h-[609px] mx-[135px] my-[30px] flex justify-between trending">
         <div class="my-[24px] mx-[24px] flex flex-col gap-[24px]">
             <p class="font-[Kanit-Medium] text-[28px]">Trending News</p>
             <div class="flex flex-col gap-[24px] news">
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>

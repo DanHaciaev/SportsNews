@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-[630px] bg-gradient-to-b from-[#F9FAFC] to-white">
+    <section id="home" class="min-h-[630px] pt-[92px] bg-gradient-to-b from-[#F9FAFC] to-white">
         <div class="w-full min-h-[630px] topScorer relative">
             <div>
                 <img src="/img/bas-gray.png" alt=""
@@ -11,11 +11,9 @@
 
 
                 <div class="w-[365px] absolute z-[4] left-[34%] top-[79%] flex flex-col gap-[24px] top_button">
-                    <p class="font-[DMSans] text-[18px] top__text">The EuroLeague Finals Top Scorer is the individual
-                        award for
-                        the
-                        player that
-                        gained the highest points in
+                    <p class="font-[DMSans] text-[18px] top__text">
+                        The EuroLeague Finals Top Scorer is the individual
+                        award for the player that gained the highest points in
                         the EuroLeague Finals</p>
                     <button
                         class="uppercase px-[32px] py-[12px] bg-[#262626] rounded-[6px] opacity-100 text-white font-[DMSans-Bold] text-[20px] w-fit button_">Continue
@@ -60,7 +58,7 @@
         </div>
 
 
-    </div>
+    </section>
 </template>
 
 <style scoped>
@@ -232,11 +230,11 @@
         height: 950px;
     }
 
-    .today{
+    .today {
         width: 100%;
     }
 
-    .today_block{
+    .today_block {
         justify-content: center;
         margin: 0 auto;
         flex-direction: column;

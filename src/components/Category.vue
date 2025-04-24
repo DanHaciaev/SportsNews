@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-[135px] my-[80px] flex flex-col gap-[24px] category">
+    <section id="category" class="mx-[135px] my-[80px] flex flex-col gap-[24px] category">
         <p class="font-[Kanit-Medium] text-[28px]">Category</p>
 
         <div class="flex justify-between categories">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 </template>

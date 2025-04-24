@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col article">
+    <section id="sports" class="flex flex-col article">
         <p class="font-[Kanit-Medium] text-[28px]">Sports Article</p>
 
         <div class="flex w-full justify-between articles">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>

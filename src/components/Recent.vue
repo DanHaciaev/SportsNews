@@ -1,7 +1,7 @@
 <template>
-    <div class="flex gap-[24px] recent">
+    <section class="flex gap-[24px] recent">
         <!-- Recent News -->
-        <div class="flex flex-col gap-[24px]">
+        <div id="recent" class="flex flex-col gap-[24px]">
             <p class="font-[Kanit-Medium] text-[28px]">Recent News</p>
 
             <div class="flex gap-[36px] baku">
@@ -65,7 +65,7 @@
 
         <!-- Clubs Ranking -->
 
-        <div class="flex flex-col gap-[24px] flex-1">
+        <div id="ranking" class="flex flex-col gap-[24px] flex-1">
             <p class="font-[Kanit-Medium] text-[28px]">Clubs Ranking</p>
 
             <div class="py-[12px] bg-gray-100 font-[DMSans] rounded-[6px] h-full">
@@ -102,7 +102,7 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
 </template>
 
