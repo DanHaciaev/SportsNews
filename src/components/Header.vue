@@ -102,7 +102,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const activeSection = ref('home'); // по умолчанию активен Home
+const activeSection = ref('home');
 
 const scrollToSection = (id) => {
   const el = document.getElementById(id);
